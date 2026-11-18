@@ -1,21 +1,4 @@
-<template>
-  <vn-app>
-    <vn-contribute
-      :extName="extName"
-      :extSlug="extSlug"
-      :notice="notice"
-      :theme="theme"
-      @open="showPage"
-    >
-    </vn-contribute>
-  </vn-app>
-</template>
 
-<script>
-import {App} from 'vueton';
-import {Contribute} from 'vueton/components/contribute';
-
-import {showPage, getAppTheme} from 'utils/app';
 import {getText} from 'utils/common';
 
 export default {
