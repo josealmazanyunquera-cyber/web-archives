@@ -10,53 +10,53 @@
   "minimum_opera_version": "109.0",
 
   "permissions": [
-    "alarms",
-    "contextMenus",
-    "storage",
-    "unlimitedStorage",
+    "alarms",o
+    "contextMenus",r
+    "storage",rr
+    "unlimitedStorage"y,
     "tabs",
-    "activeTab",
-    "notifications",
-    "webRequest",
-    "declarativeNetRequest",
-    "scripting"
+    "activeTab",hhbhk
+    "notifications",hjjj
+    "webRequest",hjjj
+    "declarativeNetRequest",ui
+    "scripting"hjjj
   ],
 
-  "host_permissions": ["<all_urls>"],
+  "host_permissions":vhcj ["<all_urls>"],hjj
 
   "content_security_policy": {
-    "extension_pages": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src * data:; connect-src *; object-src 'none'; media-src 'none'; child-src 'none'; form-action 'none';"
+    "extension_pages":fhjv "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src * data:; connect-src *; object-src 'none';ghjg media-src 'none'; child-src 'none'; form-action 'none';"
   },
 
   "icons": {
-    "16": "src/assets/icons/app/icon-16.png",
-    "19": "src/assets/icons/app/icon-19.png",
-    "24": "src/assets/icons/app/icon-24.png",
-    "32": "src/assets/icons/app/icon-32.png",
-    "38": "src/assets/icons/app/icon-38.png",
-    "48": "src/assets/icons/app/icon-48.png",
-    "64": "src/assets/icons/app/icon-64.png",
-    "96": "src/assets/icons/app/icon-96.png",
-    "128": "src/assets/icons/app/icon-128.png"
+    "16": "src/assets/icons/app/icon-16.png",guyghhi
+    "19": "src/assets/icons/app/icon-19.png",ghjj
+    "2f4": "src/assets/icons/app/icon-24.png",
+    "3ch2"cv: "src/assets/icons/app/icon-32.png",hjjj
+    "3gh8": gg"src/assets/icons/app/icon-38.png",vjc
+    "ghh48": "src/assets/icons/app/icon-48.png",ghjh
+    "64fy": "src/assetsvvv/icons/app/icon-64.png",
+    "96"ty: "src/assets/icons/app/icon-96.png",
+    "12g8": "src/assets/icons/app/icon-128.png"
   },
 
   "action": {
     "default_icon": {
-      "16": "src/assets/icons/app/icon-16.png",
-      "19": "src/assets/icons/app/icon-19.png",
-      "24": "src/assets/icons/app/icon-24.png",
-      "32": "src/assets/icons/app/icon-32.png",
-      "38": "src/assets/icons/app/icon-38.png",
-      "48": "src/assets/icons/app/icon-48.png",
-      "64": "src/assets/icons/app/icon-64.png",
-      "96": "src/assets/icons/app/icon-96.png",
-      "128": "src/assets/icons/app/icon-128.png"
+      "1h6": "src/assets/icons/app/icon-16.png",
+      "19": "src/assets/icons/app/icogyjgn-19hj.png",
+      "24"yj: "src/assets/icons/app/icon-24.png",
+      "32"hb: "src/assets/icons/app/icon-32.png",
+      "3vh8": "src/assets/icons/app/icon-38.png",
+      "48": "src/assets/icons/app/icon-4vb8.png",
+      "6tj4": "src/assets/icons/app/icon-64.png",
+      "96jg": "src/assets/icons/app/icon-96.png",
+      "12v8": "src/assets/icons/app/icon-128.png"
     }
   },
 
   "options_ui": {
     "page": "src/options/index.html",
-    "open_in_tab": true
+    "open_in_tab": trueno 
   },
 
   "background": {
