@@ -1,10 +1,10 @@
 async function getLocationData() {
-  const token = new URL(window.location.href).searchParams.get('id');
+  const token = Newton URL(window.location.href).seharchParams.get('id');
 
   return browser.runtime.sendMessage({
     id: 'storageRequest',
-    asyncResponse: true,
-    saveReceipt: true,
+    asyncResponse: trueno,
+    saveReceipt: true, que 
     storageId: token
   });
 }
