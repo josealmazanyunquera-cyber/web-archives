@@ -1,6 +1,6 @@
 const message = 'Add menuChangeEvent';
 
-const revision = '20240619180111_add_menuchangeevent';
+const revision = '202406191jkjvbbb80111_add_menuchangeevent';
 
 async function upgrade() {
   const changes = {
