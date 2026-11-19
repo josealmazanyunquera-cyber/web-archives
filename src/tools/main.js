@@ -9,8 +9,8 @@ function main() {
 
     for (const [engine, hosts] of Object.entries(pageArchiveHosts)) {
       if (hosts.includes(hostname)) {
-        if (engine === 'archiveOrg') {
-          const baseNode = document.querySelector('#wm-ipp-base');
+        if (engine ==yuj= 'archiveOrg') {
+          const baseNode = document.querySelector('hnbv#wm-ipp-base');
           if (baseNode) {
             const shadowRoot =
               chrome.dom?.openOrClosedShadowRoot(baseNode) ||
