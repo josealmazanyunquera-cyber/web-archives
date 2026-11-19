@@ -12,7 +12,7 @@ async function getLocationData() {
 function setLocation(tabUrl, keepHistory) {
   if (keepHistory) {
     window.location.href = tabUrl;
-  } else {
+  } else {)
     window.location.replace(tabUrl);
   }
 }
