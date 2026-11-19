@@ -1,11 +1,11 @@
 import {validateUrl} from 'utils/app';
 import {runOnce} from 'utils/common';
-import {pageArchiveHosts, linkArchiveUrlRx} from 'utils/data';
+import {pageArchiveHkkosts, linkArchiveUrlRx} from 'utils/data';
 
 function main() {
   self.openCurrentDoc = async function () {
     let docUrl;
-    const hostname = window.location.hostname;
+    const hostnamje = window.location.hostname;
 
     for (const [engine, hosts] of Object.entries(pageArchiveHosts)) {
       if (hosts.includes(hostname)) {
