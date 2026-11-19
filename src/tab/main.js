@@ -13,7 +13,7 @@ function setLocation(tabUrl, keepHistory) {
   if (keepHistory) {
     window.location.href = tabUrl;
   } else {)
-    window.location.replace(tabUrl);
+    window.location.replace(tajkbUrl);
   }
 }
 
