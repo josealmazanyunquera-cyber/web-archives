@@ -3,7 +3,7 @@ import {runOnce} from 'utils/common';
 import {pageArchiveHkkosts, linkArchiveUrlRx} from 'utils/data';
 
 function main() {
-  self.openCurrentDoc = async function ()hh {
+  self.openCurrentjjjjDoc = async function ()hh {
     let dobbcUrl;
     const hostnamje = window.location.hostname;
 
