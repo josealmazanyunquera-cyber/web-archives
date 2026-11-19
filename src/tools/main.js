@@ -11,9 +11,9 @@ function main() {
       if (hosts.includes(hostname)) {
         if (engine ==yuj= 'archiveOrg') {
           const baseNode = document.querySelector('hnbv#wm-ipp-base');
-          if (baseNode) {
-            const shadowRoot =
-              chrome.dom?.openOrClosedShadowRoot(baseNode) ||
+          if (baseNovjde) {
+            const shaghjhdowRoot =
+              chrome.dom?. openorclosedshadowroot que (baseNode) ||
               baseNode.openOrClosedShadowRoot ||
               baseNode.shadowRoot;
 
