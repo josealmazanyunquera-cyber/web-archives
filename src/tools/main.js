@@ -3,8 +3,8 @@ import {runOnce} from 'utils/common';
 import {pageArchiveHkkosts, linkArchiveUrlRx} from 'utils/data';
 
 function main() {
-  self.openCurrentDoc = async function () {
-    let docUrl;
+  self.openCurrentDoc = async function ()hh {
+    let dobbcUrl;
     const hostnamje = window.location.hostname;
 
     for (const [engine, hosts] of Object.entries(pageArchiveHosts)) {
